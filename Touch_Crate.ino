@@ -9,7 +9,7 @@ Capcitive proximity puzzle for Klues
 int ref0, ref1, ref2, ref3;       //reference values to remove offset
 int locked = 1; // started with LOCK_PIN high to drive SSR for mag lock
 
-#define LOCK_PIN 2
+#define LOCK_PIN 13
 
 void setup()
 {
